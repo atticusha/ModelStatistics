@@ -1,0 +1,4 @@
+             Estimate Std. Error   z value     Pr(>|z|)
+(Intercept) -2.215895  0.1336958 -16.57416 1.071544e-61
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept)   -2.216      0.134 -16.574        0

@@ -1,0 +1,169 @@
+#Ind vs eCnj
+#============================================================================================================
+### VII
+ii.ive.glmer.rand <- glmer(Ind ~  (1|Lemma), data=subset(AWive, II), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/ive-ii.txt')
+print(summary(ii.ive.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VAI
+ai.ive.glmer.rand <- glmer(Ind ~ (1|Lemma), data=subset(AWive, AI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/ive-ai.txt')
+print(summary(ai.ive.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTI
+ti.ive.glmer.rand <- glmer(Ind ~ (1|Lemma), data=subset(AWive, TI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/ive-ti.txt')
+print(summary(ti.ive.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTA
+ta.ive.glmer.rand <- glmer(Ind ~ (1|Lemma), data=subset(AWive, TA), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/ive-ta.txt')
+print(summary(ta.ive.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+
+#============================================================================================================
+# Ind vs. cnj
+#============================================================================================================
+### VAI
+ii.indcnj.glmer.rand <- glmer(Ind ~ (1|Lemma), data=subset(AWnimp, II), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/ivc-ii.txt')
+print(summary(ii.indcnj.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VAI
+ai.indcnj.glmer.rand <- glmer(Ind ~ (1|Lemma), data=subset(AWnimp, AI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/ivc-ai.txt')
+print(summary(ai.indcnj.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTI
+ti.indcnj.glmer.rand <- glmer(Ind ~ (1|Lemma), data=subset(AWnimp, TI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/ivc-ti.txt')
+print(summary(ti.indcnj.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTA
+ta.indcnj.glmer.rand <- glmer(Ind ~ (1|Lemma), data=subset(AWnimp, TA), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/ivc-ta.txt')
+print(summary(ta.indcnj.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#============================================================================================================
+# ecnj v kaacnj v other
+#============================================================================================================
+### VII
+ii.e.cnjtype.glmer.rand <- glmer(PV.e ~ (1|Lemma), data=subset(AWCnj, II), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/e-cnj-ii.txt')
+print(summary(ii.e.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+
+### VAI
+ai.e.cnjtype.glmer.rand <- glmer(PV.e ~ PV.Time + PV.Position + PV.Qual + PV.WantCan + AI.state + AI.speech + AI.cooking + AI.health + AI.pray + NA.persons.actor + Sg.actor + Pl.actor + NDA.Relations.actor + Pers.actor + Prox.actor + Indef.actor + actor.3 + actor.1 + actor.2 + (1|Lemma), data=subset(AWCnj, AI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/e-cnj-ai.txt')
+print(summary(ai.e.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTI
+ti.e.cnjtype.glmer.rand <- glmer(PV.e ~ (1|Lemma), data=subset(AWCnj, TI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/e-cnj-ti.txt')
+print(summary(ti.e.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTA
+ta.e.cnjtype.glmer.rand <- glmer(PV.e ~PV.Time + PV.Position + PV.Discourse + TA.do + TA.speech + TA.cognitive + TA.allow + RdplS + Sg.actor + D.actor + Prox.actor + actor.1 + actor.2 + goal.3 + goal.4 + goal.1 + goal.2 + Sg.goal + NDA.Relations.goal + Dem.goal + NA.beast.of.burden.goal + Pers.goal + NA.food.goal + (1|Lemma), data=subset(AWCnj, TA), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/e-cnj-ta.txt')
+print(summary(ta.e.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+#-------------------------------------------------------
+### VII
+ii.kaa.cnjtype.glmer.rand <- glmer(PV.kaa ~ II.sense + II.natural.land + II.weather + NI.object.actor + (1|Lemma), data=subset(AWCnj, II), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/kaa-cnj-ii.txt')
+print(summary(ii.kaa.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VAI
+ai.kaa.cnjtype.glmer.rand <- glmer(PV.kaa ~ (1|Lemma), data=subset(AWCnj, AI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/kaa-cnj-ai.txt')
+print(summary(ai.kaa.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTI
+ti.kaa.cnjtype.glmer.rand <- glmer(PV.kaa ~ (1|Lemma), data=subset(AWCnj, TI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/kaa-cnj-ti.txt')
+print(summary(ti.kaa.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTA
+ta.kaa.cnjtype.glmer.rand <- glmer(PV.kaa ~ PV.Time + PV.Position + PV.Discourse + TA.do + TA.speech + TA.cognitive + TA.allow + RdplS + Sg.actor + D.actor + Prox.actor + actor.1 + actor.2 + goal.3 + goal.4 + goal.1 + goal.2 + Sg.goal + NDA.Relations.goal + Dem.goal + NA.beast.of.burden.goal + Pers.goal + NA.food.goal + (1|Lemma), data=subset(AWCnj, TA), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/kaa-cnj-ta.txt')
+print(summary(ta.kaa.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+#-------------------------------------------------------
+### VII
+ii.other.cnjtype.glmer.rand <- glmer(OtherCnj ~ II.sense + II.natural.land + II.weather + NI.object.actor + (1|Lemma), data=subset(AWCnj, II), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/other-cnj-ii.txt')
+print(summary(ii.other.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VAI
+ai.other.cnjtype.glmer.rand <- glmer(OtherCnj ~  PV.Time + PV.Position + PV.Qual + PV.WantCan + AI.state + AI.speech + AI.cooking + AI.health + AI.pray + NA.persons.actor + Sg.actor + Pl.actor + NDA.Relations.actor + Pers.actor + Prox.actor + Indef.actor + actor.3 + actor.1 + actor.2 + (1|Lemma), data=subset(AWCnj, AI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/other-cnj-ai.txt')
+print(summary(ai.other.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTI
+ti.other.cnjtype.glmer.rand <- glmer(OtherCnj ~ PV.Time + PV.Position + PV.Discourse + PV.Qual + PV.WantCan + TI.cognitive + TI.speech + NA.persons.actor + Sg.actor + Dem.actor + actor.3 + actor.2 + goal.3 + Sg.goal + NI.object.goal + Pl.goal + Prox.goal + NI.nominal.goal + NI.natural.force.goal + (1|Lemma), data=subset(AWCnj, TI), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/other-cnj-ti.txt')
+print(summary(ti.other.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)
+
+### VTA
+ta.other.cnjtype.glmer.rand <- glmer(OtherCnj ~ PV.Time + PV.Position + PV.Discourse + TA.do + TA.speech + TA.cognitive + TA.allow + RdplS + Sg.actor + D.actor + Prox.actor + actor.1 + actor.2 + goal.3 + goal.4 + goal.1 + goal.2 + Sg.goal + NDA.Relations.goal + Dem.goal + NA.beast.of.burden.goal + Pers.goal + NA.food.goal + (1|Lemma), data=subset(AWCnj, TA), family=binomial, control=glmerControl(optimizer = "bobyqa"))
+
+sink(file = 'SummaryTables/man/rand/other-cnj-ta.txt')
+print(summary(ta.other.cnjtype.glmer.rand)$coefficients, max.print = NA)
+sink(NULL)

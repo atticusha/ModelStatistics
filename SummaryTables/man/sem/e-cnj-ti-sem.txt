@@ -1,0 +1,30 @@
+                             Estimate Std. Error     z value     Pr(>|z|)
+(Intercept)                1.54243469  0.1253075  12.3091973 8.082301e-35
+PV.TimeTRUE               -4.18019381  0.3096796 -13.4984472 1.597068e-41
+PV.PositionTRUE           -1.92582216  0.1820502 -10.5785241 3.748157e-26
+PV.DiscourseTRUE          -0.18563285  0.2746200  -0.6759626 4.990644e-01
+PV.QualTRUE                0.51387101  0.3787026   1.3569249 1.748051e-01
+PV.WantCanTRUE            -1.45485832  0.3463986  -4.1999541 2.669691e-05
+TI.cognitiveTRUE          -0.14155577  0.1971449  -0.7180291 4.727394e-01
+TI.speechTRUE             -1.10547471  0.2895039  -3.8185142 1.342579e-04
+NA.persons.actorTRUE       0.06279228  0.2042187   0.3074757 7.584813e-01
+Dem.actorTRUE             -1.29095610  0.4186018  -3.0839718 2.042569e-03
+NI.object.goalTRUE        -0.06279334  0.1330332  -0.4720126 6.369178e-01
+Prox.goalTRUE             -0.91800266  0.2251399  -4.0774773 4.552698e-05
+NI.nominal.goalTRUE       -0.53273903  0.2358614  -2.2586957 2.390232e-02
+NI.natural.force.goalTRUE  0.50080257  0.3752222   1.3346826 1.819802e-01
+                          Estimate Std. Error z value Pr(>|z|)
+(Intercept)                  1.542      0.125  12.309    0.000
+PV.TimeTRUE                 -4.180      0.310 -13.498    0.000
+PV.PositionTRUE             -1.926      0.182 -10.579    0.000
+PV.DiscourseTRUE            -0.186      0.275  -0.676    0.499
+PV.QualTRUE                  0.514      0.379   1.357    0.175
+PV.WantCanTRUE              -1.455      0.346  -4.200    0.000
+TI.cognitiveTRUE            -0.142      0.197  -0.718    0.473
+TI.speechTRUE               -1.105      0.290  -3.819    0.000
+NA.persons.actorTRUE         0.063      0.204   0.307    0.758
+Dem.actorTRUE               -1.291      0.419  -3.084    0.002
+NI.object.goalTRUE          -0.063      0.133  -0.472    0.637
+Prox.goalTRUE               -0.918      0.225  -4.077    0.000
+NI.nominal.goalTRUE         -0.533      0.236  -2.259    0.024
+NI.natural.force.goalTRUE    0.501      0.375   1.335    0.182

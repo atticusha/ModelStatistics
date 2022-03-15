@@ -1,0 +1,30 @@
+                           Estimate Std. Error      z value      Pr(>|z|)
+(Intercept)             -4.32488352  0.2023761 -21.37052411 2.512962e-101
+PV.TimeTRUE              5.47822865  0.2487679  22.02144333 1.794564e-107
+PV.PositionTRUE          4.73892595  0.2346198  20.19832199  1.012807e-90
+PV.QualTRUE             -0.38426765  0.4999206  -0.76865737  4.420967e-01
+PV.WantCanTRUE           1.08297011  0.5362555   2.01950391  4.343487e-02
+AI.stateTRUE            -0.16618077  0.2312280  -0.71868786  4.723333e-01
+AI.speechTRUE            0.38285154  0.4579882   0.83594185  4.031876e-01
+AI.cookingTRUE          -0.01966591  0.4561323  -0.04311449  9.656103e-01
+AI.healthTRUE            0.21247748  0.5655015   0.37573282  7.071155e-01
+AI.prayTRUE              1.30227510  0.7284232   1.78780014  7.380826e-02
+NA.persons.actorTRUE    -0.56571726  0.3355943  -1.68571753  9.185022e-02
+NDA.Relations.actorTRUE -0.36857326  0.5194314  -0.70957058  4.779705e-01
+Pers.actorTRUE          -0.59532911  0.6723023  -0.88550802  3.758827e-01
+Prox.actorTRUE          -0.53590763  0.9783266  -0.54777988  5.838431e-01
+                        Estimate Std. Error z value Pr(>|z|)
+(Intercept)               -4.325      0.202 -21.371    0.000
+PV.TimeTRUE                5.478      0.249  22.021    0.000
+PV.PositionTRUE            4.739      0.235  20.198    0.000
+PV.QualTRUE               -0.384      0.500  -0.769    0.442
+PV.WantCanTRUE             1.083      0.536   2.020    0.043
+AI.stateTRUE              -0.166      0.231  -0.719    0.472
+AI.speechTRUE              0.383      0.458   0.836    0.403
+AI.cookingTRUE            -0.020      0.456  -0.043    0.966
+AI.healthTRUE              0.212      0.566   0.376    0.707
+AI.prayTRUE                1.302      0.728   1.788    0.074
+NA.persons.actorTRUE      -0.566      0.336  -1.686    0.092
+NDA.Relations.actorTRUE   -0.369      0.519  -0.710    0.478
+Pers.actorTRUE            -0.595      0.672  -0.886    0.376
+Prox.actorTRUE            -0.536      0.978  -0.548    0.584

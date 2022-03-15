@@ -1,0 +1,13 @@
+                   Estimate 
+                   Pr(>|z|)
+(Intercept)       -2.554    
+                   0.000
+II.sense           0.663    
+                   0.390
+II.natural.land    0.647    
+                   0.343
+II.weather         1.596    
+                   0.017
+NI.object.actor    0.122    
+                   0.740
+                            

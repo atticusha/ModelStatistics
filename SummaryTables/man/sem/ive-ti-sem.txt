@@ -1,0 +1,26 @@
+                            Estimate Std. Error   z value     Pr(>|z|)
+(Intercept)               -0.9712012  0.1158845 -8.380767 5.258410e-17
+PV.TimeTRUE                1.9593871  0.3377934  5.800548 6.609837e-09
+PV.QualTRUE               -1.1324678  0.3383148 -3.347379 8.157952e-04
+PV.DiscourseTRUE          -2.0608264  0.3856137 -5.344277 9.077869e-08
+TI.cognitiveTRUE           1.0015220  0.1891572  5.294654 1.192421e-07
+TI.speechTRUE              1.0262244  0.3082603  3.329084 8.713209e-04
+NA.persons.actorTRUE       0.2851981  0.1469925  1.940221 5.235281e-02
+NI.object.goalTRUE        -0.2602706  0.1078397 -2.413495 1.580036e-02
+NI.natural.force.goalTRUE -0.5046190  0.3301114 -1.528632 1.263556e-01
+NI.nature.plants.goalTRUE -0.6759745  0.3841146 -1.759825 7.843750e-02
+NI.place.goalTRUE         -0.8404306  0.4918720 -1.708637 8.751827e-02
+NDI.Body.goalTRUE         -1.4996599  0.8158929 -1.838060 6.605359e-02
+                          Estimate Std. Error z value Pr(>|z|)
+(Intercept)                 -0.971      0.116  -8.381    0.000
+PV.TimeTRUE                  1.959      0.338   5.801    0.000
+PV.QualTRUE                 -1.132      0.338  -3.347    0.001
+PV.DiscourseTRUE            -2.061      0.386  -5.344    0.000
+TI.cognitiveTRUE             1.002      0.189   5.295    0.000
+TI.speechTRUE                1.026      0.308   3.329    0.001
+NA.persons.actorTRUE         0.285      0.147   1.940    0.052
+NI.object.goalTRUE          -0.260      0.108  -2.413    0.016
+NI.natural.force.goalTRUE   -0.505      0.330  -1.529    0.126
+NI.nature.plants.goalTRUE   -0.676      0.384  -1.760    0.078
+NI.place.goalTRUE           -0.840      0.492  -1.709    0.088
+NDI.Body.goalTRUE           -1.500      0.816  -1.838    0.066

@@ -1,0 +1,37 @@
+                      Estimate 
+                      Pr(>|z|)
+(Intercept)           -3.052   
+                       0.000
+PV.Qual               -1.637   
+                       0.026
+PV.Discourse          -0.592   
+                       0.177
+PV.Position           -0.971   
+                       0.080
+PV.WantCan             1.830   
+                       0.000
+AI.do                 -0.021   
+                       0.916
+AI.cooking             0.097   
+                       0.825
+AI.health              1.359   
+                       0.005
+RdplW                 -0.765   
+                       0.159
+NA.persons.actor      -0.368   
+                       0.273
+Sg.actor               0.582   
+                       0.135
+Pl.actor              -0.833   
+                       0.136
+NDA.Relations.actor   -2.744   
+                       0.010
+actor.3               -0.098   
+                       0.652
+actor.1               -0.062   
+                       0.784
+actor.2                1.849   
+                       0.000
+                               
+                               
+                               

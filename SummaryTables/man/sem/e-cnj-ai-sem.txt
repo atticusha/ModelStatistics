@@ -1,0 +1,30 @@
+                           Estimate Std. Error     z value     Pr(>|z|)
+(Intercept)              1.08880405 0.07849759  13.8705409 9.555355e-44
+PV.TimeTRUE             -3.39637955 0.20927992 -16.2288839 3.151376e-59
+PV.PositionTRUE         -1.51360559 0.15022171 -10.0758113 7.067507e-24
+PV.QualTRUE              0.55204797 0.20633666   2.6754720 7.462410e-03
+PV.WantCanTRUE           0.30774443 0.37708262   0.8161194 4.144319e-01
+AI.stateTRUE             0.06377377 0.11510816   0.5540335 5.795559e-01
+AI.speechTRUE           -0.11881254 0.28019950  -0.4240284 6.715451e-01
+AI.cookingTRUE           0.74408833 0.26552961   2.8022800 5.074281e-03
+AI.healthTRUE            0.21130534 0.35847096   0.5894629 5.555508e-01
+AI.prayTRUE             -0.23768546 0.46785817  -0.5080289 6.114331e-01
+NA.persons.actorTRUE    -0.43631932 0.12999491  -3.3564338 7.895461e-04
+NDA.Relations.actorTRUE  0.47820371 0.18961117   2.5220228 1.166821e-02
+Dem.actorTRUE            0.08460202 0.21062766   0.4016663 6.879297e-01
+Pers.actorTRUE           0.78378237 0.23552942   3.3277473 8.755125e-04
+                        Estimate Std. Error z value Pr(>|z|)
+(Intercept)                1.089      0.078  13.871    0.000
+PV.TimeTRUE               -3.396      0.209 -16.229    0.000
+PV.PositionTRUE           -1.514      0.150 -10.076    0.000
+PV.QualTRUE                0.552      0.206   2.675    0.007
+PV.WantCanTRUE             0.308      0.377   0.816    0.414
+AI.stateTRUE               0.064      0.115   0.554    0.580
+AI.speechTRUE             -0.119      0.280  -0.424    0.672
+AI.cookingTRUE             0.744      0.266   2.802    0.005
+AI.healthTRUE              0.211      0.358   0.589    0.556
+AI.prayTRUE               -0.238      0.468  -0.508    0.611
+NA.persons.actorTRUE      -0.436      0.130  -3.356    0.001
+NDA.Relations.actorTRUE    0.478      0.190   2.522    0.012
+Dem.actorTRUE              0.085      0.211   0.402    0.688
+Pers.actorTRUE             0.784      0.236   3.328    0.001

@@ -1,0 +1,30 @@
+                               Estimate Std. Error    z value     Pr(>|z|)
+(Intercept)                 -0.42088714  0.3572872 -1.1780078 2.387935e-01
+PV.MoveTRUE                 -0.73181018  0.2295928 -3.1874261 1.435452e-03
+PV.DiscourseTRUE            -1.39677087  0.3426427 -4.0764645 4.572564e-05
+PV.PositionTRUE             -0.62857425  0.2973682 -2.1137913 3.453309e-02
+PV.QualTRUE                 -0.49495354  0.3298835 -1.5003887 1.335138e-01
+PV.TimeTRUE                  1.67371072  0.3307814  5.0598699 4.195427e-07
+TA.speechTRUE                0.13860938  0.4133626  0.3353215 7.373825e-01
+TA.doTRUE                   -0.45881132  0.3796882 -1.2083898 2.268974e-01
+TA.cognitiveTRUE            -0.08578138  0.3814276 -0.2248956 8.220605e-01
+TA.foodTRUE                 -1.42896889  0.5684925 -2.5136108 1.195022e-02
+D.actorTRUE                 -0.46350709  0.2356021 -1.9673299 4.914518e-02
+Pers.actorTRUE               1.12977172  0.3200630  3.5298414 4.158088e-04
+NA.persons.goalTRUE         -0.25497380  0.1320379 -1.9310659 5.347491e-02
+NA.beast.of.burden.goalTRUE  0.02800972  0.2689300  0.1041524 9.170484e-01
+                            Estimate Std. Error z value Pr(>|z|)
+(Intercept)                   -0.421      0.357  -1.178    0.239
+PV.MoveTRUE                   -0.732      0.230  -3.187    0.001
+PV.DiscourseTRUE              -1.397      0.343  -4.076    0.000
+PV.PositionTRUE               -0.629      0.297  -2.114    0.035
+PV.QualTRUE                   -0.495      0.330  -1.500    0.134
+PV.TimeTRUE                    1.674      0.331   5.060    0.000
+TA.speechTRUE                  0.139      0.413   0.335    0.737
+TA.doTRUE                     -0.459      0.380  -1.208    0.227
+TA.cognitiveTRUE              -0.086      0.381  -0.225    0.822
+TA.foodTRUE                   -1.429      0.568  -2.514    0.012
+D.actorTRUE                   -0.464      0.236  -1.967    0.049
+Pers.actorTRUE                 1.130      0.320   3.530    0.000
+NA.persons.goalTRUE           -0.255      0.132  -1.931    0.053
+NA.beast.of.burden.goalTRUE    0.028      0.269   0.104    0.917

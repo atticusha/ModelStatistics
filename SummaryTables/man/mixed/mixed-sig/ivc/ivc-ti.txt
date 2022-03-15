@@ -1,0 +1,11 @@
+(Intercept) & -0.209 & 0.103 \\
+PV.Discourse & -2.050 & 0.000 \\
+TI.do & -0.754 & 0.000 \\
+TI.money.count & -1.888 & 0.020 \\
+NA.persons.actor & 0.503 & 0.001 \\
+actor.3 & -0.795 & 0.000 \\
+actor.2 & 0.324 & 0.037 \\
+NI.nominal.goal & -0.759 & 0.009 \\
+NDI.Body.goal & -1.032 & 0.044 \\
+NI.place.goal & -1.429 & 0.027 \\
+Px1Sg.goal & 1.604 & 0.005 \\

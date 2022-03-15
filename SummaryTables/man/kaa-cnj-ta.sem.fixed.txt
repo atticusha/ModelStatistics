@@ -1,0 +1,16 @@
+                   Estimate Std. Error    z value     Pr(>|z|)
+(Intercept)      -1.4153343 0.09016472 -15.697208 1.580476e-55
+PV.DiscourseTRUE -0.2971045 0.37041015  -0.802096 4.224974e-01
+PV.PositionTRUE  -1.4664804 0.73141753  -2.004984 4.496476e-02
+TA.cognitiveTRUE -0.3871549 0.14872400  -2.603177 9.236423e-03
+TA.speechTRUE     0.3574823 0.13018824   2.745888 6.034737e-03
+Prox.actorTRUE    1.0318735 0.37238160   2.771011 5.588256e-03
+Prox.goalTRUE     0.7256246 0.27151874   2.672466 7.529604e-03
+                 Estimate Std. Error z value Pr(>|z|)
+(Intercept)        -1.415      0.090 -15.697    0.000
+PV.DiscourseTRUE   -0.297      0.370  -0.802    0.422
+PV.PositionTRUE    -1.466      0.731  -2.005    0.045
+TA.cognitiveTRUE   -0.387      0.149  -2.603    0.009
+TA.speechTRUE       0.357      0.130   2.746    0.006
+Prox.actorTRUE      1.032      0.372   2.771    0.006
+Prox.goalTRUE       0.726      0.272   2.672    0.008

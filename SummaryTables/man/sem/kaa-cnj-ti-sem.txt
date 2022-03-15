@@ -1,0 +1,30 @@
+                            Estimate Std. Error     z value     Pr(>|z|)
+(Intercept)               -1.7983473  0.1402889 -12.8188854 1.285350e-37
+PV.TimeTRUE               -1.8813550  0.3047373  -6.1736938 6.671267e-10
+PV.PositionTRUE           -3.4274964  0.7279261  -4.7085773 2.494518e-06
+PV.DiscourseTRUE           0.2031838  0.2919507   0.6959524 4.864586e-01
+PV.QualTRUE               -0.6656459  0.4301182  -1.5475881 1.217215e-01
+PV.WantCanTRUE             1.7003870  0.3674897   4.6270328 3.709417e-06
+TI.cognitiveTRUE           0.2439023  0.2150533   1.1341483 2.567323e-01
+TI.speechTRUE              0.9622992  0.3087388   3.1168717 1.827811e-03
+NA.persons.actorTRUE       0.2086161  0.2156593   0.9673410 3.333736e-01
+Dem.actorTRUE              1.1234602  0.4241256   2.6488854 8.075770e-03
+NI.object.goalTRUE         0.3421091  0.1437650   2.3796407 1.732953e-02
+Prox.goalTRUE              0.5860991  0.2294072   2.5548413 1.062362e-02
+NI.nominal.goalTRUE        0.6901412  0.2543936   2.7128869 6.669987e-03
+NI.natural.force.goalTRUE -0.2539371  0.3945295  -0.6436454 5.198054e-01
+                          Estimate Std. Error z value Pr(>|z|)
+(Intercept)                 -1.798      0.140 -12.819    0.000
+PV.TimeTRUE                 -1.881      0.305  -6.174    0.000
+PV.PositionTRUE             -3.427      0.728  -4.709    0.000
+PV.DiscourseTRUE             0.203      0.292   0.696    0.486
+PV.QualTRUE                 -0.666      0.430  -1.548    0.122
+PV.WantCanTRUE               1.700      0.367   4.627    0.000
+TI.cognitiveTRUE             0.244      0.215   1.134    0.257
+TI.speechTRUE                0.962      0.309   3.117    0.002
+NA.persons.actorTRUE         0.209      0.216   0.967    0.333
+Dem.actorTRUE                1.123      0.424   2.649    0.008
+NI.object.goalTRUE           0.342      0.144   2.380    0.017
+Prox.goalTRUE                0.586      0.229   2.555    0.011
+NI.nominal.goalTRUE          0.690      0.254   2.713    0.007
+NI.natural.force.goalTRUE   -0.254      0.395  -0.644    0.520
