@@ -1,0 +1,149 @@
+$loglikelihood.null
+[1] -1257.607
+
+$loglikelihood.model
+[1] -1211.051
+
+$deviance.null
+[1] 2515.214
+
+$deviance.model
+[1] 2422.102
+
+$R2.likelihood
+[1] 0.03701943
+
+$R2.nagelkerke
+[1] 0.06196232
+
+$crosstable
+          
+           eCnj otherCnj
+  eCnj     1497       18
+  otherCnj  571       26
+
+$accuracy
+[1] 0.7211174
+
+$recall.predicted
+      eCnj   otherCnj 
+0.98811881 0.04355109 
+
+$precision.predicted
+     eCnj  otherCnj 
+0.7238878 0.5909091 
+
+$lambda.prediction
+[1] 0.01340034
+
+$tau.classification
+[1] 0.3123107
+
+$d.lambda.prediction
+[1] 0.3865836
+
+$d.tau.classification
+[1] 11.85456
+
+$p.lambda.prediction
+[1] 0.3495322
+
+$p.tau.classification
+[1] 0
+
+                                 ai.indcnj.predicted.my.morph.fixed
+ai.indcnj.observed.my.morph.fixed eCnj
+                             eCnj 4307
+                             Ind  2082
+                                 ti.indcnj.predicted.my.morph.fixed
+ti.indcnj.observed.my.morph.fixed eCnj  Ind
+                             eCnj 2072  101
+                             Ind   813   84
+                                 ta.indcnj.predicted.my.morph.fixed
+ta.indcnj.observed.my.morph.fixed eCnj  Ind
+                             eCnj 1998    0
+                             Ind  1034    1
+                            ii.ive.predicted.my.sem.fixed
+ii.ive.observed.my.sem.fixed eCnj Ind
+                        eCnj  372  39
+                        Ind   157  47
+                            ai.ive.predicted.my.sem.fixed
+ai.ive.observed.my.sem.fixed eCnj  Ind
+                        eCnj 2830  270
+                        Ind  1187  970
+                            ti.ive.predicted.my.sem.fixed
+ti.ive.observed.my.sem.fixed eCnj Ind
+                        eCnj  986 529
+                        Ind   358 600
+                            ta.ive.predicted.my.sem.fixed
+ta.ive.observed.my.sem.fixed eCnj  Ind
+                        eCnj 1080  272
+                        Ind   555  516
+                            ii.ive.predicted.my.sem.fixed
+ii.ive.observed.my.sem.fixed eCnj Ind
+                        eCnj  372  39
+                        Ind   157  47
+                                      ii.eCnj.cnjtypes.predicted.my.sem.fixed
+ii.eCnj.cnjtypes.observed.my.sem.fixed eCnj otherCnj
+                              eCnj      348       63
+                              otherCnj  112       73
+                                        ii.kaaCnj.cnjtypes.predicted.my.sem.fixed
+ii.kaaCnj.cnjtypes.observed.my.sem.fixed otherCnj
+                                kaaCnj        161
+                                otherCnj      435
+                                          ii.OtherCnj.cnjtypes.predicted.my.sem.fixed
+ii.OtherCnj.cnjtypes.observed.my.sem.fixed otherCnj
+                                  otherCnj      572
+                                  OtherCnj       24
+                                      ai.eCnj.cnjtypes.predicted.my.sem.fixed
+ai.eCnj.cnjtypes.observed.my.sem.fixed eCnj
+                              eCnj     3100
+                              otherCnj 1132
+                                        ai.kaaCnj.cnjtypes.predicted.my.sem.fixed
+ai.kaaCnj.cnjtypes.observed.my.sem.fixed otherCnj
+                                kaaCnj        819
+                                otherCnj     3413
+                                          ai.OtherCnj.cnjtypes.predicted.my.sem.fixed
+ai.OtherCnj.cnjtypes.observed.my.sem.fixed otherCnj
+                                  otherCnj     3919
+                                  OtherCnj      313
+                                      ti.eCnj.cnjtypes.predicted.my.sem.fixed
+ti.eCnj.cnjtypes.observed.my.sem.fixed eCnj otherCnj
+                              eCnj     1482       33
+                              otherCnj  544       53
+                                        ti.kaaCnj.cnjtypes.predicted.my.sem.fixed
+ti.kaaCnj.cnjtypes.observed.my.sem.fixed kaaCnj otherCnj
+                                kaaCnj       18      302
+                                otherCnj     16     1776
+                                          ti.OtherCnj.cnjtypes.predicted.my.sem.fixed
+ti.OtherCnj.cnjtypes.observed.my.sem.fixed otherCnj
+                                  otherCnj     1835
+                                  OtherCnj      277
+                                      ta.eCnj.cnjtypes.predicted.my.sem.fixed
+ta.eCnj.cnjtypes.observed.my.sem.fixed eCnj otherCnj
+                              eCnj     1335       17
+                              otherCnj  592       18
+                                        ta.kaaCnj.cnjtypes.predicted.my.sem.fixed
+ta.kaaCnj.cnjtypes.observed.my.sem.fixed otherCnj
+                                kaaCnj        396
+                                otherCnj     1566
+                                          ta.OtherCnj.cnjtypes.predicted.my.sem.fixed
+ta.OtherCnj.cnjtypes.observed.my.sem.fixed otherCnj
+                                  otherCnj     1748
+                                  OtherCnj      214
+                               ii.indcnj.predicted.my.sem.fixed
+ii.indcnj.observed.my.sem.fixed eCnj Ind
+                           eCnj  562  51
+                           Ind   147  40
+                               ai.indcnj.predicted.my.sem.fixed
+ai.indcnj.observed.my.sem.fixed eCnj  Ind
+                           eCnj 3929  378
+                           Ind  1120  962
+                               ti.indcnj.predicted.my.sem.fixed
+ti.indcnj.observed.my.sem.fixed eCnj  Ind
+                           eCnj 2121   52
+                           Ind   840   57
+                               ta.indcnj.predicted.my.sem.fixed
+ta.indcnj.observed.my.sem.fixed eCnj  Ind
+                           eCnj 1788  210
+                           Ind   620  415
